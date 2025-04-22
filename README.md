@@ -7,9 +7,9 @@ This script automates the setup of a desktop environment and AdsPower on your Li
 1. **Log into your VPS via SSH** using a terminal application like Putty or Termius.
 2. Run the following command to start the installation process:
 
-    ```bash
-
-    ```
+```
+bash <(curl -s https://raw.githubusercontent.com/supermegaelf/adspower-linux/main/adspower-linux.sh)
+```
 
 3. When prompted, **enter the username and password** you’d like to use for your remote desktop connection. Avoid using the root username for security reasons.
 4. The script will install the desktop environment and AdsPower. Simply wait until everything is fully installed.
