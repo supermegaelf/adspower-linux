@@ -51,6 +51,13 @@ sudo apt install -y ubuntu-desktop gnome-shell
 echo -e "${INFO}Installing XRDP for remote desktop...${NC}"
 sudo apt install -y xrdp
 
+# Install and configure UFW
+echo -e "${INFO}Installing UFW and configuring firewall rules...${NC}"
+sudo apt install -y ufw
+sudo ufw allow 22/tcp comment "SSH"
+sudo ufw allow 3389/tcp comment "Remote"
+sudo ufw enable
+
 echo -e "${INFO}Adding the user $USER with the specified password...${NC}"
 sudo useradd -m -s /bin/bash $USER
 echo "$USER:$PASSWORD" | sudo chpasswd
