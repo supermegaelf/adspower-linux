@@ -5,12 +5,10 @@ This script automates the setup of a desktop environment and AdsPower on your Li
 ## How to Use the Installer Script
 
 1. **Log into your VPS via SSH** using a terminal application like Putty or Termius.
-2. Run the following commands to start the installation process:
+2. Run the following command to start the installation process:
 
     ```bash
-    sudo apt update
-    sudo apt install curl
-    curl -O https://raw.githubusercontent.com/juliwicks/desktop-adspower-installer-fox-linux/refs/heads/main/nodebot_installer.sh && chmod +x nodebot_installer.sh && ./nodebot_installer.sh
+
     ```
 
 3. When prompted, **enter the username and password** you’d like to use for your remote desktop connection. Avoid using the root username for security reasons.
