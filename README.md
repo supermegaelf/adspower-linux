@@ -1,8 +1,8 @@
-# Automated Desktop and AdsPower Installer for Linux VPS
+### Automated Desktop and AdsPower Installer for Linux VPS
 
 This script automates the setup of a desktop environment and AdsPower on your Linux VPS, making it easy to manage multiple bots or nodes.
 
-## How to Use the Installer Script
+#### How to Use the Installer Script
 
 1. **Log into your VPS via SSH** using a terminal application like Putty or Termius.
 2. Run the following command to start the installation process:
