@@ -123,7 +123,7 @@ WorkingDirectory=/home/$USER
 
 PIDFile=/home/$USER/.vnc/%H:%i.pid
 ExecStartPre=-/usr/bin/vncserver -kill :%i > /dev/null 2>&1
-ExecStart=/usr/bin/vncserver -depth 24 -geometry 1024x768 :%i
+ExecStart=/usr/bin/vncserver -depth 24 -geometry 1366x768 :%i
 ExecStop=/usr/bin/vncserver -kill :%i
 
 [Install]
