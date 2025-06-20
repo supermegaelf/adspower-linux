@@ -1,6 +1,6 @@
 # Automated Desktop and AdsPower Installer for Linux VPS
 
-This script automates the setup of a desktop environment and AdsPower on your Linux VPS, making it easy to manage multiple bots or nodes. All you need to do is provide a non-root username and password for your remote desktop connection, and the script will handle the rest.
+This script automates the setup of a desktop environment and AdsPower on your Linux VPS, making it easy to manage multiple bots or nodes.
 
 ## How to Use the Installer Script
 
@@ -11,12 +11,10 @@ This script automates the setup of a desktop environment and AdsPower on your Li
 bash <(curl -s https://raw.githubusercontent.com/supermegaelf/adspower-linux/main/adspower-linux.sh)
 ```
 
-3. When prompted, **enter the username and password** you’d like to use for your remote desktop connection. Avoid using the root username for security reasons.
+3. When prompted, **enter the username and password** you’d like to use for your remote desktop connection.
 4. The script will install the desktop environment and AdsPower. Simply wait until everything is fully installed.
 
 ## Accessing Your VPS Desktop
 
-1. After installation, open **Remote Desktop Connection** on your PC.
-2. Enter your **VPS address** and connect.
-3. Input the **username and password** you provided during the setup.
-4. Once connected, you can access **AdsPower Global** on your Linux VPS.
+1. After installation, open `RealVNC` Viewer on your PC.
+2. Enter your `VPS address` and connect with `5901` port.
